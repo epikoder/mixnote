@@ -1,0 +1,10 @@
+class SignInMethodsViewModel {
+
+  toLogin() {
+
+  }
+
+  toSignUp() {
+
+  }
+}

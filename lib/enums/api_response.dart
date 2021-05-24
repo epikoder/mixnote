@@ -1,0 +1,1 @@
+enum ApiResponse {Success, Error}
