@@ -10,9 +10,6 @@ class BottomWaveClipper extends CustomClipper<Path> {
 
     path.quadraticBezierTo(firstControlPoint.dx, firstControlPoint.dy,
         firstEndPoint.dx, firstEndPoint.dy);
-    print("${firstControlPoint.dx}   ${firstControlPoint.dy}   ${firstEndPoint.dx}"
-        "   ${firstEndPoint.dy}");
-    print("${size.width}   ${size.height}");
 
     var secondControlPoint =
         Offset(size.width - (size.width / 3.25), size.height - 65);
